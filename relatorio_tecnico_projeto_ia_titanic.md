@@ -39,7 +39,14 @@ As principais variáveis usadas foram:
 - `Fare`: tarifa paga.
 - `Embarked`: porto de embarque.
 
-O balanceamento das classes deve ser verificado no notebook consolidado. Essa etapa é importante porque classes muito desbalanceadas podem fazer a acurácia parecer boa mesmo quando o modelo não aprende bem a classe minoritária.
+O balanceamento das classes foi verificado no conjunto de treino e apresentou a seguinte distribuição:
+
+| Classe | Quantidade | Percentual |
+| --- | --- | --- |
+| Não sobreviveu (0) | 549 | 61,62% |
+| Sobreviveu (1) | 342 | 38,38% |
+
+O dataset apresenta um leve desbalanceamento, com a classe majoritária representando cerca de 62% dos dados. Esse nível de desequilíbrio é considerado moderado e não compromete significativamente o treinamento dos modelos utilizados. Por esse motivo, optou-se por não aplicar técnicas de balanceamento artificial (como SMOTE ou `class_weight='balanced'`), priorizando a preservação da distribuição original dos dados históricos. As métricas de Precisão, Recall e F1-score foram incluídas justamente para complementar a Acurácia e garantir uma avaliação mais robusta mesmo diante desse desequilíbrio.
 
 ## 6. Pré-processamento
 
@@ -69,7 +76,8 @@ Foram comparados cinco algoritmos:
 
 Como o problema é de classificação, foram usadas as seguintes métricas:
 
-- **Acurácia:** proporção geral de acertos.
+- **Acurácia (Treino):** proporção de acertos no conjunto de treino — permite identificar overfitting quando muito superior à acurácia de teste.
+- **Acurácia (Teste):** proporção de acertos no conjunto de validação.
 - **Precisão:** entre os passageiros previstos como sobreviventes, quantos realmente sobreviveram.
 - **Recall:** entre os passageiros que realmente sobreviveram, quantos o modelo identificou.
 - **F1-score:** equilíbrio entre precisão e recall.

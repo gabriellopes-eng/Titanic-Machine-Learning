@@ -1,4 +1,4 @@
-# 🚢 Titanic — Predição de Sobrevivência com Machine Learning
+# 🚢 Titanic - Predição de Sobrevivência com Machine Learning
 
 > Projeto de **Inteligência Artificial** que treina e compara **5 algoritmos de Machine Learning** para prever se um passageiro do Titanic sobreviveu ao naufrágio, usando o clássico dataset do [Kaggle](https://www.kaggle.com/competitions/titanic).
 
@@ -13,7 +13,7 @@
 
 ## 📌 Sobre o projeto
 
-O objetivo é prever a variável alvo `Survived` — `0` (não sobreviveu) ou `1` (sobreviveu) — a partir de características dos passageiros como classe, sexo, idade, tarifa e porto de embarque.
+O objetivo é prever a variável alvo `Survived` - `0` (não sobreviveu) ou `1` (sobreviveu) - a partir de características dos passageiros como classe, sexo, idade, tarifa e porto de embarque.
 
 - **Tipo de problema:** Aprendizagem Supervisionada
 - **Tarefa:** Classificação Binária
@@ -34,7 +34,7 @@ O objetivo é prever a variável alvo `Survived` — `0` (não sobreviveu) ou `1
 
 ---
 
-## 📊 Resultados (conjunto de validação — 179 passageiros)
+## 📊 Resultados (conjunto de validação - 179 passageiros)
 
 | Modelo | Acurácia | Precisão | Recall | F1-score |
 |--------|:--------:|:--------:|:------:|:--------:|
@@ -45,7 +45,7 @@ O objetivo é prever a variável alvo `Survived` — `0` (não sobreviveu) ou `1
 
 > O melhor modelo é selecionado automaticamente pelo **F1-score**, critério mais robusto que a acurácia em cenários com leve desbalanceamento de classes (≈62% / 38%).
 
-**Principais fatores de sobrevivência** (importância das variáveis): `Sex` (ser mulher), `Fare` e `Pclass` — coerente com o histórico "mulheres e crianças primeiro".
+**Principais fatores de sobrevivência** (importância das variáveis): `Sex` (ser mulher), `Fare` e `Pclass` - coerente com o histórico "mulheres e crianças primeiro".
 
 ---
 
@@ -122,6 +122,6 @@ Comece pelo notebook **`06_projeto_ia_comparativo_titanic.ipynb`**, que reúne t
 ## 👨‍💻 Autor
 
 **Gabriel Lopes**
-Universidade de Pernambuco — Campus Surubim · Disciplina de Inteligência Artificial
+Universidade de Pernambuco - Campus Surubim · Disciplina de Inteligência Artificial
 
 [![GitHub](https://img.shields.io/badge/GitHub-gabriellopes--eng-181717?logo=github&logoColor=white)](https://github.com/gabriellopes-eng)

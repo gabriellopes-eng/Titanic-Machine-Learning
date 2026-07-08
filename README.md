@@ -11,6 +11,16 @@
 
 ---
 
+## 🎬 Apresentação em vídeo
+
+Assista à apresentação completa do projeto no LinkedIn — análise exploratória, treinamento e comparação dos modelos, avaliação e submissão final:
+
+[![Apresentação em vídeo — Titanic Machine Learning](assets/thumbnail.png)](https://www.linkedin.com/posts/gabriel-lopes-de-albuquerque-658a8317b_machinelearning-datascience-titanic-ugcPost-7442208521053655042-zEcw)
+
+> ▶️ Clique na imagem acima para assistir ao vídeo.
+
+---
+
 ## 📌 Sobre o projeto
 
 O objetivo é prever a variável alvo `Survived` — `0` (não sobreviveu) ou `1` (sobreviveu) — a partir de características dos passageiros como classe, sexo, idade, tarifa e porto de embarque.

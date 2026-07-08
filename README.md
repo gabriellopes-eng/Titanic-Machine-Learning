@@ -13,9 +13,9 @@
 
 ## 🎬 Apresentação em vídeo
 
-Assista à apresentação completa do projeto no LinkedIn — análise exploratória, treinamento e comparação dos modelos, avaliação e submissão final:
+Assista à apresentação completa do projeto no LinkedIn, onde apresento a análise exploratória dos dados, treinamento e comparação dos modelos, avaliação dos resultados e a submissão final.
 
-[![Apresentação em vídeo — Titanic Machine Learning](assets/thumbnail.png)](https://www.linkedin.com/posts/gabriel-lopes-de-albuquerque-658a8317b_machinelearning-datascience-titanic-ugcPost-7442208521053655042-zEcw)
+[![Apresentação em vídeo — Titanic Machine Learning](https://github.com/user-attachments/assets/d199545e-2adc-4b33-b3c6-c6aa661d40d6)](https://www.linkedin.com/posts/gabriel-lopes-de-albuquerque-658a8317b_machinelearning-datascience-titanic-ugcPost-7442208521053655042-zEcw)
 
 > ▶️ Clique na imagem acima para assistir ao vídeo.
 
